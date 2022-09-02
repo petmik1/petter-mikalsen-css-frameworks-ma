@@ -1,6 +1,9 @@
 .main {
     .main__heading {
-        font-size: 2em;
+        font-size: 1.5em;
+        text-align: center;
+        color: getColor(tertiary);
+        margin: 2em 0;
     }
     &__box {
         width: 90%;

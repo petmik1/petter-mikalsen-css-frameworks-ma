@@ -1,5 +1,8 @@
 .main .main__heading {
-  font-size: 2em;
+  font-size: 1.5em;
+  text-align: center;
+  color: #262626;
+  margin: 2em 0;
 }
 .main__box {
   width: 90%;
@@ -23,6 +26,10 @@
 }
 .navbar .nav-link {
   font-family: "archivo narrow";
+  font-size: 1em;
+}
+.navbar .navbar-brand {
+  font-size: 1.7em;
 }
 
 .active {
@@ -43,7 +50,6 @@ body {
 }
 
 .container {
-  max-width: 90%;
   margin: 0 auto;
 }
 
@@ -58,6 +64,12 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 1em;
+}
+.footer .footer__copyright,
+.footer .footer__link {
+  color: #8D8D8D;
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {

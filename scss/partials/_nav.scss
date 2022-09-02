@@ -2,9 +2,12 @@
     background: getColor(primary);
     .nav-link {
         font-family: $font__nav-link;
+        font-size: 1em;
+    }
+    .navbar-brand {
+        font-size: 1.7em;
     }
   }
-  
   .active {
     color: getColor(secondary) !important;
   }
