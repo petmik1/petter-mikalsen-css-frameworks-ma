@@ -1,0 +1,21 @@
+.main {
+    .main__heading {
+        font-size: 2em;
+    }
+    &__box {
+        width: 90%;
+        height: 200px;
+        background: getColor(primary);
+        margin: 1em auto;
+        padding: 0 1em;
+        border-radius: 20px;
+    }
+    &__box--sale {
+        background: white;
+        border: solid 2px getColor(secondary);
+    }
+    &__box--out-of-stock {
+        background: getColor(secondary);
+        border: solid 2px white;
+    }
+}

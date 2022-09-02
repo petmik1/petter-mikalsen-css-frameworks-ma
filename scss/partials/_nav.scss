@@ -1,0 +1,10 @@
+.navbar {
+    background: getColor(primary);
+    .nav-link {
+        font-family: $font__nav-link;
+    }
+  }
+  
+  .active {
+    color: getColor(secondary) !important;
+  }
