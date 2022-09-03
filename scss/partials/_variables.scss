@@ -6,8 +6,10 @@ $colors: (
     accent: #8D8D8D,
 );
 
-$tablet-width: 768px;
-
 @function getColor ($color){
     @return map-get($colors, $color )
-}
+};
+
+$tablet-width: 768px;
+
+

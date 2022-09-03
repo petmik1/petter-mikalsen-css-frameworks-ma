@@ -28,11 +28,11 @@
   font-family: "archivo narrow";
   font-size: 18px;
 }
-.navbar .navbar-brand {
+.navbar .navbar__brand {
   font-size: 36px;
 }
 
-.active {
+.nav__link--active {
   color: #C32C72 !important;
 }
 

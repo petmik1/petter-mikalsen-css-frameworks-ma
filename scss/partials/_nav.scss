@@ -4,10 +4,10 @@
         font-family: $font__nav-link;
         font-size: 18px;
     }
-    .navbar-brand {
+    .navbar__brand {
         font-size: 36px;
     }
   }
-  .active {
+  .nav__link--active {
     color: getColor(secondary) !important;
   }
