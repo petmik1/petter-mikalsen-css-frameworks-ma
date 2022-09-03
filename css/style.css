@@ -1,5 +1,5 @@
 .main .main__heading {
-  font-size: 1.5em;
+  font-size: 34px;
   text-align: center;
   color: #262626;
   margin: 2em 0;
@@ -26,10 +26,10 @@
 }
 .navbar .nav-link {
   font-family: "archivo narrow";
-  font-size: 1em;
+  font-size: 18px;
 }
 .navbar .navbar-brand {
-  font-size: 1.7em;
+  font-size: 36px;
 }
 
 .active {
@@ -70,6 +70,7 @@ body {
 .footer .footer__link {
   color: #8D8D8D;
   text-decoration: none;
+  font-size: 12px;
 }
 
 @media (min-width: 768px) {

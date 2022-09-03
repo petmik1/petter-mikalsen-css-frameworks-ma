@@ -11,6 +11,7 @@
     .footer__link {
         color: getColor(accent);
         text-decoration: none;
+        font-size: 12px;
     }
 }
 @media (min-width:$tablet-width) {
